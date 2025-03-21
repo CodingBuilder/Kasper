@@ -161,7 +161,7 @@ bullets.forEach((bullet) => {
   bullet.addEventListener("click", (e) => {
 
     activeHandler(bullets, bullet, "bullet");
-    landing.style.backgroundImage = `url(../images/${imgs.at(bullet.dataset.no)})`;
+    landing.style.backgroundImage = `url(images/${imgs.at(bullet.dataset.no)})`;
     window.sessionStorage.setItem("background-image", imgs.at(bullet.dataset.no));
 
   });
@@ -192,12 +192,12 @@ function bulletsLoop(bullets) {
 let n = bulletsLoop(bullets);
 
 if (window.sessionStorage.getItem("background-image")) {
-  landing.style.backgroundImage = `url(../images/${window.sessionStorage.getItem("background-image")})`;
+  landing.style.backgroundImage = `url(images/${window.sessionStorage.getItem("background-image")})`;
 }
 
 // A Function To Change The Background Image Depending On The Current Image Number
 function bgChange(n) {
-  landing.style.backgroundImage = `url(../images/${imgs.at(n)})`;
+  landing.style.backgroundImage = `url(images/${imgs.at(n)})`;
 
   bullets.forEach((bullet) => {
     bullet.classList.remove("active");
