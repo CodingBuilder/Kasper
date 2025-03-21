@@ -386,17 +386,24 @@ contact.addEventListener("submit", (e) => {
   let msg = document.querySelector("[name='msg']");
 
   if (msg.value.length < 2) {
+
     msg.nextElementSibling.style.display = "block";
     msg.style.borderColor = "red";
     valid = false;
+
   } else {
+
     msg.nextElementSibling.style.display = "none";
     msg.style.borderColor = "var(--descriptionColor)";
+
   }
 
   if (!valid) {
+
     e.preventDefault();
+    
   }
+
 });
 
 let year = document.querySelector("footer .container .year");
