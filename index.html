@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png">
+    <title>Kasper</title>
+  </head>
+  <body>
+    <!-- Heading Start -->
+    <header>
+      <div class="container">
+        <a href="">
+          <img src="images/logo.png" alt="Kasper Logo">
+        </a>
+        <nav>
+          <i class="fa-solid fa-bars"></i>
+          <ul>
+            <li><a href="#" class="active" data-section="home">Home</a></li>
+            <li><a href="#services" data-section="services">Services</a></li>
+            <li><a href="#portfolio" data-section="portfolio">Portfolio</a></li>
+            <li><a href="#about" data-section="about">About</a></li>
+            <li><a href="#pricing" data-section="pricing">Pricing</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Heading End -->
+
+    <!-- Landing Start -->
+    <div class="landing">
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello World!<br>
+            We Are Kasper, We Make Art
+          </h2>
+          <p>
+            Curabitur arcu erat, accumsan ld imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan ld imperdiet et, porttitor at
+            sem. Mauris blandit aliquet elit, eget tincidunt
+          </p>
+        </div>
+      </div>
+      <i class="fas fa-angle-right change-background fa-2x" data-dir="right"></i>
+      <i class="fas fa-angle-left change-background fa-2x" data-dir="left"></i>
+      <div class="bullets">
+        <span class="bullet" data-no="0"></span>
+        <span class="bullet active" data-no="1"></span>
+        <span class="bullet" data-no="2"></span>
+      </div>
+    </div>
+    <!-- Landing End -->
+
+    <!-- Services Start -->
+    <div class="services" id="services">
+      <div class="container">
+        <div class="heading-content">
+          <h2>Services</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+        </div>
+        <div class="srvs-container">
+          <div class="srv-box">
+            <i class="fas fa-desktop fa-3x"></i>
+            <div class="text">
+              <h2>Vorem amet intuitive</h2>
+              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.</p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fas fa-gear fa-3x"></i>
+            <div class="text">
+              <h2>Vorem amet intuitive</h2>
+              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.</p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fas fa-pen-ruler fa-3x fa-thin"></i>
+            <div class="text">
+              <h2>Vorem amet intuitive</h2>
+              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.</p>
+            </div>
+          </div>
+          <div class="srv-box">
+            <i class="fas fa-camera fa-3x"></i>
+            <div class="text">
+              <h2>Vorem amet intuitive</h2>
+              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                  sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                  a. Curabitur aliquet quam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Design Start -->
+    <div class="design">
+      <div class="image">
+        <img src="images/mobile.png" alt="Mobiles">
+      </div>
+      <div class="text">
+        <h2>OUR DESIGNS COMES WITH...</h2>
+        <ul>
+          <li><i class="fas fa-desktop"></i>Responsive Design</li>
+          <li><i class="fas fa-desktop"></i>Modern And Clean Design</li>
+          <li><i class="fas fa-desktop"></i>Clean Code</li>
+          <li><i class="fas fa-desktop"></i>Browser Friendly</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Design End -->
+
+    <!-- Portfolio Start -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="heading-content">
+          <h2>Portfolio</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+        </div>
+        <ul class="shuffle">
+          <li class="active" data-shuffle="all">All</li>
+          <li data-shuffle="app">App</li>
+          <li data-shuffle="photography">Photography</li>
+          <li data-shuffle="web">Web</li>
+          <li data-shuffle="print">Print</li>
+        </ul>
+      </div>
+      <div class="imgs-container">
+        <div class="box">
+          <img src="/images/shuffle-01.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-02.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-03.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-04.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-05.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-06.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-07.jpg" alt="Photography">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/shuffle-08.jpg" alt="">
+          <div class="text">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <a href="#">More</a>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Video Start -->
+    <div class="awesome-video">
+      <video src="/images/try.mp4" autoplay muted loop></video>
+      <div class="text">
+        <h2>Super Awesome Video Here</h2>
+        <p>It's all you need</p>
+        <a href="#">See More</a>
+      </div>
+    </div>
+    <!-- Video End -->
+
+    <!-- About Start -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="heading-content">
+          <h2>About us</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+        </div>
+        <img src="/images/about.png" alt="About Us">
+      </div>
+    </div>
+    <!-- About End -->
+    
+    <!-- Stats Start -->
+    <div class="stats">
+      <div class="container">
+        <div class="box">
+          <div class="hexagon">
+            <i class="fas fa-mug-saucer"></i>
+          </div>
+          <h2 data-num="1263">0</h2>
+          <p>Coffe Drinks</p>
+        </div>
+        <div class="box">
+          <div class="hexagon">
+            <i class="fas fa-folder"></i>
+          </div>
+          <h2 data-num="256">0</h2>
+          <p>Completed Projects</p>
+        </div>
+        <div class="box">
+          <div class="hexagon">
+            <i class="fas fa-message"></i>
+          </div>
+          <h2 data-num="1743">0</h2>
+          <p>Mail Sent</p>
+        </div>
+        <div class="box">
+          <div class="hexagon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h2 data-num="17">0</h2>
+          <p>Awards Received</p>
+        </div>
+      </div>
+    </div>
+    <!-- Stats End -->
+
+    <!-- Skills Start -->
+    <div class="skills">
+      <div class="container">
+        <div class="testimonials">
+          <h2>Testimonials</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+          <div class="box">
+            <img src="/images/avatar01.jpg" alt="Avatar">
+            <div class="text">
+              Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt
+              <p>john Doe,CEO</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="/images/avatar02.png" alt="Avatar">
+            <div class="text">
+              Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt
+              <p>john Doe,CEO</p>
+            </div>
+          </div>
+          <div class="bullets">
+            <span class="bullet" data-no="0"></span>
+            <span class="bullet active" data-no="1"></span>
+            <span class="bullet" data-no="2"></span>
+          </div>
+        </div>
+        <div class="our-skills">
+          <h2>Our skills</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+          <div class="prog-holder">
+            <h4>Adobe</h4>
+            <div class="prog">
+              <span style="width: 95%;" data-prog="95%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>Html &amp; Css</h4>
+            <div class="prog">
+              <span style="width: 93%;" data-prog="93%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>JavaScript</h4>
+            <div class="prog">
+              <span style="width: 85%;" data-prog="85%"></span>
+            </div>
+          </div>
+          <div class="prog-holder">
+            <h4>Php</h4>
+            <div class="prog">
+              <span style="width: 87%;" data-prog="87%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills End -->
+
+    <!-- Quote Start -->
+    <div class="quote">
+      <div class="container">
+        <q>ACCUMSAN ID CURABITUR ET PORTITOR MAURIS BLANDIT DOLOR LOREM SOME
+              EST OUR DONEC STIN LORTIOS</q>
+        <span>John Doe</span>
+      </div>
+    </div>
+    <!-- Quote End -->
+
+    <!-- Pricing Start -->
+    <div class="pricing" id="pricing">
+      <div class="container">
+        <div class="heading-content">
+          <h2>Pricing</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+        </div>
+        <div class="plans">
+          <div class="plan">
+            <div class="heading">
+              <span>Basic</span>
+              <h3>19</h3>
+            </div>
+            <div class="feats">
+              <span>Feature NO 1</span>
+              <span>Extra Feature</span>
+              <span>Feature NO 2</span>
+              <span>Feature</span>
+            </div>
+            <div class="footer">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="heading">
+              <span>Basic</span>
+              <h3>29</h3>
+            </div>
+            <div class="feats">
+              <span>Feature NO 1</span>
+              <span>Extra Feature</span>
+              <span>Feature NO 2</span>
+              <span>Feature</span>
+            </div>
+            <div class="footer">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="heading">
+              <span>Basic</span>
+              <h3>39</h3>
+            </div>
+            <div class="feats">
+              <span>Feature NO 1</span>
+              <span>Extra Feature</span>
+              <span>Feature NO 2</span>
+              <span>Feature</span>
+            </div>
+            <div class="footer">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="heading">
+              <span>Basic</span>
+              <h3>49</h3>
+            </div>
+            <div class="feats">
+              <span>Feature NO 1</span>
+              <span>Extra Feature</span>
+              <span>Feature NO 2</span>
+              <span>Feature</span>
+            </div>
+            <div class="footer">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="special">
+          <p>Contact us if you have special request</p>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing End -->
+
+    <!-- Subscribe Start -->
+    <div class="sub">
+      <div class="container">
+        <form>
+          <i class="far fa-envelope fa-lg"></i>
+          <input type="text" name="email" class="email">
+          <input type="submit" value="Subscribe" class="submit">
+        </form>
+        <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+            blandit a'iouet elit eget tincidunt</p>
+      </div>
+    </div>
+    <!-- Subscribe End -->
+
+    <!-- Contact Start -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="heading-content">
+          <h2>Contact Us</h2>
+          <p>Curabitur arcu erat, accurnsan id imperdietet, porttitor at sem. Mauris
+              blandit a'iouet elit eget tincidunt</p>
+        </div>
+        <div class="contact-container">
+          <form>
+            <input type="text" name="name" placeholder="your name" class="main">
+            <p class="error"></p>
+            <input type="text" name="email" placeholder="your mail" class="main" id="email">
+            <p class="error"></p>
+            <textarea name="msg" placeholder="your message" class="main"></textarea>
+            <p class="error">Your Message Should Contains At Least 2 Characters</p>
+            <input type="submit" value="SEND MESSAGE">
+          </form>
+          <div class="info">
+            <div class="call">
+              <h2>Get In Touch</h2>
+              <span>+00 123.456.789<br>+00 123.456.789</span>
+            </div>
+            <div class="address">
+              <h2>Where We Are</h2>
+              <address>17 Address Awesome<br>York,NYC New<br>123-4567-890<br>USA</address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container">
+        <img src="/images/logo.png" alt="Logo">
+        <div class="social">
+          <h3>We Are Social</h3>
+          <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google"></i>
+            <i class="fa-solid fa-earth-americas"></i>
+          </div>
+        </div>
+        <p class="copyrights">&copy; <span class="year"></span> - <span>Kasper</span> All Right Reserved</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
